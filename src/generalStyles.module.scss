@@ -1,0 +1,180 @@
+.backgroundContainer {
+  opacity: 1;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.loginContainer {
+  overflow: hidden;
+  width: 400px;
+}
+
+.pageConatiner {
+  height: 100%;
+  padding: 2% 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #b6c7fa;
+  border-radius: 20px;
+}
+
+.login_text {
+  color: #7a7a7a;
+  font-size: 24px;
+  margin-bottom: 10%;
+  font-weight: 500;
+}
+
+.label_text {
+  color: #6b6b6b;
+  font-size: 18px;
+}
+
+.forgot_my_password {
+  justify-content: space-between;
+  display: flex;
+
+  a {
+    color: #2a4490;
+  }
+}
+
+.loginButton {
+  color: #fff !important;
+  background: #5b76f0 !important;
+  border-radius: 25px;
+  width: 80%;
+  height: 45px;
+  font-size: 18px;
+}
+
+.cancelBtn {
+  background: #fff !important;
+  border: 1px solid #5b76f0 !important;
+  border-radius: 7px;
+  font-weight: 600;
+  color: #5b76f0 !important;
+  padding: 0 25px !important;
+}
+
+.editBtn {
+  background: #5b76f0 !important;
+  border: 1px solid #5b76f0 !important;
+  border-radius: 7px;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 0 30px !important;
+}
+
+.uploadBtn {
+  background: #5b76f0 !important;
+  border: 1px solid #5b76f0 !important;
+  border-radius: 7px;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 0 30px !important;
+  width: 160px;
+}
+
+.assignBtn {
+  background: #5b76f0 !important;
+  border: 1px solid #5b76f0 !important;
+  border-radius: 8px;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 0 20px !important;
+  height: 35px;
+}
+
+.formInputs {
+  border-radius: 7px;
+  border: 1px solid #e2e4e9;
+}
+
+.titleLabel {
+  font-size: 18px;
+  color: #626262;
+  font-weight: 500;
+}
+
+.labelText {
+  color: #4b4b4b;
+  font-weight: 500;
+}
+
+.dividerLine {
+  margin: 5px 0 20px 0;
+  border: 1px solid #e2e4e9;
+}
+
+.deleteIcon {
+  font-size: 18px;
+  color: #ff4d4f;
+}
+
+.dayButton {
+  background-color: #fff !important;
+  color: #7a7a7a !important;
+  border-radius: 10px;
+  border-color: #d9d9d9 !important;
+  height: 35px;
+  width: 50px;
+  padding: 3px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 500;
+}
+
+.dayButtonSelect {
+  background-color: #c1cbf9 !important;
+  color: #7a7a7a !important;
+  border-color: #d9d9d9 !important;
+  border-radius: 10px;
+  height: 35px;
+  width: 50px;
+  padding: 3px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 500;
+}
+
+.assignInput {
+  border: transparent;
+}
+
+.dateTimeLable {
+  font-size: 14px;
+  font-weight: 400;
+  color: #525866;
+}
+
+.dateTime {
+  font-size: 12px;
+  font-weight: 400;
+  color: #525866;
+  margin-bottom: 25px;
+}
+
+.shiftStatus {
+  margin-left: 10px;
+  text-align: left;
+  width: 70px;
+  font-size: smaller;
+}
+
+.statusContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
