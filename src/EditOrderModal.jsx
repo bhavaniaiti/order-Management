@@ -56,11 +56,13 @@ export const EditOrderModal = ({
     );
   };
 
+  console.log(order);
+
   useEffect(() => {
     if (order) {
       setValue("invoice_no", order.invoice_no);
       setValue("invoice_date", order.invoice_date);
-      setValue("paid", order.paid);
+      setValue("paid", order.status === "completed");
     }
   }, [order, setValue]);
 
